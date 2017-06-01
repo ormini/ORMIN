@@ -22,6 +22,7 @@ if osname == 'posix':
 
     for file in files:
         if '.rmin' in file:
+            print(file)
             pass
         else:
             eliminate.append(file)
