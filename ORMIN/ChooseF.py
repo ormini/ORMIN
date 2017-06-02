@@ -10,7 +10,7 @@ def choosef(files):
         choice = input("Choose the file\n")
         try:
             int(choice)
-            if int(choice) <= len(files):
+            if int(choice) <= len(files) and int(choice) > 0:
                 print(files[int(choice)-1])
                 break
         except:
