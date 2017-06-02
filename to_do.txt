@@ -1,1 +1,5 @@
 #List of objectives to acomplish
+
+#args, tags for data
+
+#type list y dict support
